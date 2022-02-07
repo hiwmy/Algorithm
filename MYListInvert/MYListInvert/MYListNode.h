@@ -19,6 +19,11 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param head List Head
 + (void)printListValueWithNodeHead:(MYListNode *)head;
 
+
+/// new invert list head
+/// @param head head
++ (MYListNode *)invertListWithHead:(MYListNode *)head;
+
 @end
 
 NS_ASSUME_NONNULL_END

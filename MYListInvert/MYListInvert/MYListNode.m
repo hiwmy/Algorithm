@@ -42,4 +42,17 @@
     }
 }
 
++ (MYListNode *)invertListWithHead:(MYListNode *)head {
+    MYListNode *newHead = head;
+    MYListNode *temp = head.nextNode;
+    head.nextNode = NULL;
+    while (temp != NULL) {
+        MYListNode *tt = temp.nextNode;
+        temp.nextNode = newHead;
+        newHead = temp;
+        temp = tt;
+    }
+    return newHead;
+}
+
 @end

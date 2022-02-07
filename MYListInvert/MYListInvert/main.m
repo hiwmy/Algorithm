@@ -14,6 +14,8 @@ int main(int argc, const char * argv[]) {
         NSLog(@"Hello, World!");
         MYListNode *head = [MYListNode createListWithArray:@[@1, @3, @7, @9]];
         [MYListNode printListValueWithNodeHead:head];
+        MYListNode *invertHead = [MYListNode invertListWithHead:head];
+        [MYListNode printListValueWithNodeHead:invertHead];
     }
     return 0;
 }
