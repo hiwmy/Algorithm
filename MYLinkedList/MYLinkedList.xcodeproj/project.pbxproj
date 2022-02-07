@@ -24,7 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		18756D7927B0BF8D00A9E772 /* MYListInvert */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MYListInvert; sourceTree = BUILT_PRODUCTS_DIR; };
+		18756D7927B0BF8D00A9E772 /* MYLinkedList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MYLinkedList; sourceTree = BUILT_PRODUCTS_DIR; };
 		18756D7C27B0BF8D00A9E772 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18756D8327B0BFF000A9E772 /* MYListNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYListNode.h; sourceTree = "<group>"; };
 		18756D8427B0BFF000A9E772 /* MYListNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYListNode.m; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		18756D7027B0BF8D00A9E772 = {
 			isa = PBXGroup;
 			children = (
-				18756D7B27B0BF8D00A9E772 /* MYListInvert */,
+				18756D7B27B0BF8D00A9E772 /* MYLinkedList */,
 				18756D7A27B0BF8D00A9E772 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,27 +52,27 @@
 		18756D7A27B0BF8D00A9E772 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18756D7927B0BF8D00A9E772 /* MYListInvert */,
+				18756D7927B0BF8D00A9E772 /* MYLinkedList */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		18756D7B27B0BF8D00A9E772 /* MYListInvert */ = {
+		18756D7B27B0BF8D00A9E772 /* MYLinkedList */ = {
 			isa = PBXGroup;
 			children = (
 				18756D7C27B0BF8D00A9E772 /* main.m */,
 				18756D8327B0BFF000A9E772 /* MYListNode.h */,
 				18756D8427B0BFF000A9E772 /* MYListNode.m */,
 			);
-			path = MYListInvert;
+			path = MYLinkedList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		18756D7827B0BF8D00A9E772 /* MYListInvert */ = {
+		18756D7827B0BF8D00A9E772 /* MYLinkedList */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18756D8027B0BF8D00A9E772 /* Build configuration list for PBXNativeTarget "MYListInvert" */;
+			buildConfigurationList = 18756D8027B0BF8D00A9E772 /* Build configuration list for PBXNativeTarget "MYLinkedList" */;
 			buildPhases = (
 				18756D7527B0BF8D00A9E772 /* Sources */,
 				18756D7627B0BF8D00A9E772 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = MYListInvert;
+			name = MYLinkedList;
 			productName = MYListInvert;
-			productReference = 18756D7927B0BF8D00A9E772 /* MYListInvert */;
+			productReference = 18756D7927B0BF8D00A9E772 /* MYLinkedList */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 18756D7427B0BF8D00A9E772 /* Build configuration list for PBXProject "MYListInvert" */;
+			buildConfigurationList = 18756D7427B0BF8D00A9E772 /* Build configuration list for PBXProject "MYLinkedList" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				18756D7827B0BF8D00A9E772 /* MYListInvert */,
+				18756D7827B0BF8D00A9E772 /* MYLinkedList */,
 			);
 		};
 /* End PBXProject section */
@@ -266,7 +266,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18756D7427B0BF8D00A9E772 /* Build configuration list for PBXProject "MYListInvert" */ = {
+		18756D7427B0BF8D00A9E772 /* Build configuration list for PBXProject "MYLinkedList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18756D7E27B0BF8D00A9E772 /* Debug */,
@@ -275,7 +275,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18756D8027B0BF8D00A9E772 /* Build configuration list for PBXNativeTarget "MYListInvert" */ = {
+		18756D8027B0BF8D00A9E772 /* Build configuration list for PBXNativeTarget "MYLinkedList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18756D8127B0BF8D00A9E772 /* Debug */,

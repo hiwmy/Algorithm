@@ -1,6 +1,6 @@
 //
 //  MYListNode.m
-//  MYListInvert
+//  MYLinkedList
 //
 //  Created by wangmingyu on 2022/2/7.
 //
