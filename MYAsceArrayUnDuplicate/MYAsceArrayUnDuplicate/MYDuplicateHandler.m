@@ -15,7 +15,7 @@
     } else {
         NSInteger index = 0;
         for (int i = 1; i < list.count; i++) {
-            if (list[i] > list[i-1]) {
+            if (list[i] > list[index]) {
                 index = index + 1;
                 list[index] = list[i];
             }
