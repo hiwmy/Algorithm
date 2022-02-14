@@ -14,3 +14,4 @@
 ## MYQuickSort 快速排序
 
 ## MYBubbleSort 冒泡排序
+## MYSimpleExchangeSort 简单交换排序
